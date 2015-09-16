@@ -216,7 +216,6 @@ define account(
 
     $defaults = {
       ensure => $ensure,
-      type   => 'ssh-rsa',
       user   => $username,
     }
 
